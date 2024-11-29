@@ -1,0 +1,89 @@
+/* Layout geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #007bff;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.sidebar ul li a.active,
+.sidebar ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Conteúdo principal */
+.main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.titulo {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.formulario p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.cronometro {
+    margin-top: 20px;
+}
+
+.cronometro label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#cronometro {
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#cronometro-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#cronometro-btn:hover {
+    background-color: #0056b3;
+}
